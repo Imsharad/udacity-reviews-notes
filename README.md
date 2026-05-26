@@ -12,14 +12,3 @@ These notes are referenced inline in project feedback when a specific concept ne
 
 More projects to come.
 
-## Why a separate repo
-
-Vendor documentation moves, gets reshuffled, occasionally returns 403 to bot fetchers, and sometimes only adjacently covers the specific failure mode that came up in a review. These notes are the controlled-content layer: the lesson stays put, links can be refreshed in one place, and each page is written for the specific failure pattern it addresses rather than as general API reference.
-
-## Conventions
-
-- Code examples in Python, OpenAI / Anthropic SDK idioms where applicable.
-- "Further reading" links favor first-party vendor docs (OpenAI, Anthropic, Pydantic, etc.) over third-party tutorials.
-- No course platforms in the link list (Udemy, DataCamp, etc.).
-
-— Sharad
